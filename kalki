@@ -1,0 +1,21 @@
+KALKI WROTE A BOOK PONNIYAN SELVAN AND RELEASED 50525 COPIES.
+SINCE THE BOOK WAS POPULAR AMONG THE READERS THR PUBLISHERS.DECIDED TO PUBLISH A SECOND EDITION WITH 40399 COPIES.
+CALCULATE THE TOTAL NUMBER OF COPIES PUBLISHED?
+#include<stdio.h>
+int main()
+{
+    int o,n;
+    printf("enter the old edition :");
+    scanf("%d",&o);
+    printf("enter the new edition :");
+    scanf("%d",&n);
+    printf("total number of book is:%d",o+n);
+    return 0;
+    
+}
+********************************************************
+OUTPUT
+enter the old edition :50525
+enter the new edition :40399
+total number of book is:90924
+********************************************************
