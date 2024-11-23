@@ -1,0 +1,19 @@
+// kudavi needs 5 oranges to make a glass of orange juice , 
+if kundavi has 'x' oranges 
+calculate how many glasses of orange juice can she make ?
+
+#include<stdio.h>
+int main()
+{
+  int x,glass;
+  printf("enter the number of oranges");
+  scanf("%d",&x);
+  glass=x/5;
+  printf("total number of orange juice is :%d",x/5);
+return 0;
+}
+*************************************************************
+OUTPUT
+enter the number of oranges: 56
+total number of orange juice is :11
+**************************************************************
