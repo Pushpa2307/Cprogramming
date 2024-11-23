@@ -1,0 +1,22 @@
+TO FIND THE CALCULATE SIMPLE INTEREST COMPOUND?
+#include<stdio.h>
+int main()
+{
+    int p,r,t,simple_interest;
+    printf("enter the principle :");
+    scanf("%d",&p);
+    printf("enter the rate :");
+    scanf("%d",&r);
+    printf("enter the time :");
+    scanf("%d",&t);
+    simple_interest=(p*r*t)/100;
+    printf("simple_interest is:%d",simple_interest);
+    return 0;
+}
+****************************************************************
+OUTPUT
+enter the principle :4000
+enter the rate :3
+enter the time :3
+simple_interest is:360
+****************************************************************
