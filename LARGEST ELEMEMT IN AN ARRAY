@@ -1,0 +1,34 @@
+TO WRITE A C PROGRAM
+TO FIND THE LARGEST ELEMENT IN AN ARRAY?
+#include<stdio.h>
+int main()
+{
+    int i,n;
+    int max;
+    printf("enter the num of elements in the array:\n");
+    scanf("%d",&n);
+    int arr[n]; 
+    printf("entre the elements in the array",max);
+    for(i=0;i<n;i++)
+     {
+         printf("enter element%d:",i++);
+         scanf("%d",&arr[i]);
+    }
+       max=arr[0];
+       for(i=0;i<n;i++)
+      {  
+          if(arr[i]>max)
+      {
+              max=arr[i];
+          } 
+      }
+          printf("the largest number is %d",max);
+    return 0;
+} 
+*************************************************************************
+OUTPUT
+enter the num of elements in the array:
+4
+entre the elements in the arrayenter element0:1:5
+enter element2:the largest number is 4198781
+**************************************************************************
